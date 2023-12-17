@@ -151,6 +151,11 @@ address {
 .politics-link {
   color: var(--color-primary-light);
   font-size: 16px;
+  text-decoration: none;
+}
+
+.politics-link:hover {
+  color: var(--color-brand);
 }
 
 .politics-text {
