@@ -17,12 +17,14 @@
   font-weight: 700;
   src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
 }
+
 /* CONTAINERS */
 :root {
   --color-brand: #2b7fff;
   --color-primary-dark: #011c44;
   --color-primary-light: #ffffff;
 }
+
 /* GLOBAL */
 body {
   color: var(--color-primary-dark);
@@ -74,6 +76,7 @@ address {
   background-color: transparent;
   color: var(--color-brand);
 }
+
 /* HERO SECTION */
 .hero-tittle {
   color: var(--color-brand);
@@ -156,6 +159,7 @@ address {
 
 .politics-link:hover {
   color: var(--color-brand);
+  font-weight: 700;
 }
 
 .politics-text {
